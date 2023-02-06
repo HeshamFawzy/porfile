@@ -13,7 +13,7 @@
                         <div class="fh5co-blog animate-box">
                             <a href="#" class="blog-bg" style="background-image: url( {{ $post->getFirstMediaUrl() }});"></a>
                             <div class="blog-text">
-                                <span class="posted_on">{{ date('jS \of F Y', strtotime($post['date'])); }}</span>
+                                <span class="posted_on">{{ date('jS \of F Y', strtotime($post['date'])) }}</span>
                                 <h3><a href="#">{{ $post['title'] }}</a></h3>
                                 <p>{{ $post['desc'] }}</p>
                                 <ul class="stuff">
